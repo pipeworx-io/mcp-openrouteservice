@@ -91,3 +91,13 @@ The gateway picks the right tool and fills the arguments automatically.
 ## License
 
 MIT
+
+## No MCP client? Call it over HTTP
+
+```bash
+curl -X POST https://gateway.pipeworx.io/v1/tools/openrouteservice_directions \
+  -H 'Content-Type: application/json' \
+  -d '{"coordinates":[[8.681495,49.41461],[8.687872,49.420318]],"profile":"driving-car","instructions":true}'
+```
+
+No account needed for the first calls. Inspect any tool: `GET https://gateway.pipeworx.io/v1/tools/openrouteservice_directions`. Find one: `POST https://gateway.pipeworx.io/v1/tools/search_packs` with `{"query":"..."}`.
