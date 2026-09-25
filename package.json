@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-openrouteservice",
-  "version": "0.1.0",
-  "description": "Routing, isochrones, matrix, snap, elevation, Pelias geocode via Openrouteservice. Free key required.",
+  "version": "0.1.1",
+  "description": "Openrouteservice MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-openrouteservice": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "openrouteservice"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-openrouteservice"
+    "url": "git+https://github.com/pipeworx-io/mcp-openrouteservice.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-88992b93388f175f5485f73d305895f8132b0e267380f745c9c4c0635ee4c48a",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }

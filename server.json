@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/openrouteservice",
   "title": "Openrouteservice",
-  "description": "Routing, isochrones, matrix, snap, elevation, Pelias geocode via Openrouteservice. Free key required.",
-  "version": "0.1.0",
+  "description": "Openrouteservice MCP.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/openrouteservice",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-openrouteservice",
