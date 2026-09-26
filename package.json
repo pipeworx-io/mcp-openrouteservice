@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-openrouteservice",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Openrouteservice MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-88992b93388f175f5485f73d305895f8132b0e267380f745c9c4c0635ee4c48a",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-3713b59dd4045a4ed4d762ee3d48b3aee12bc0b7b73178ae7a69cf4724031d9d",
+    "sourceCommit": "97740c6ee04c8acbfe7dddcacfde9e88ff2b9ca0"
   }
 }
