@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/openrouteservice",
   "title": "Openrouteservice",
   "description": "Openrouteservice MCP.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://pipeworx.io/packs/openrouteservice",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-openrouteservice",

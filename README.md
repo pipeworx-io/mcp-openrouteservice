@@ -2,7 +2,7 @@
 
 [Openrouteservice (ORS)](https://openrouteservice.org) MCP — directions, matrix, isochrones, snap-to-roads, elevation, POI. Free tier 2000 req/day. Key required.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1856+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1867+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Auth
 
@@ -22,7 +22,7 @@ Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents 
 
 ## Data source
 
-`https://api.openrouteservice.org/v2/`
+- Openrouteservice (ORS), directions, matrix, isochrones, snap-to-roads, elevation, POI.
 
 ## Quick Start
 
@@ -68,7 +68,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1856+ data sources. The
+Both URLs reach the same gateway and the same 1867+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
